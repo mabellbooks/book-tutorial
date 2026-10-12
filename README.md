@@ -1,4 +1,5 @@
-# book-tutorial
+# Tutorial for a free book-writing and publishing environment
+
 A tutorial, with examples, for a free writing environment using existing, well-supported tools.
 
 Tools used:
@@ -8,6 +9,14 @@ Tools used:
 - GitHub
 
 This is a "do it yourself" process, of manually installing and setting up several different pieces of software on your computer. In the future I *may* write an automatically installer to set everything up automatically.
+
+In lieu of a Patreon or other online tip jar, if you want to support this effort, see my author website and (if you like) buy a book. My books are very niche, and may not be for you, but they may be for your friends.
+
+*Content Warning: these are adult books, recommended for readers 18+ readers only. Read the **full** list of warning tags on the website before purchasing the book! You've been warned.*
+
+<a href="https://mabellbooks.com/books.html">https://mabellbooks.com/books.html</a>
+
+
 ## Installing Git
 
 Git is used for keeping track of changes in your documents, and for syncing them up to GitHub for backing up the contents. It is a powerful tool intended to support full blown software development. It is a technical tool for technical folks, but we are not even going to be scratching the surface of its features here.
