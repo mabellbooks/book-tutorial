@@ -1,4 +1,4 @@
-if exist combined.md del combined.md
+if exist book.md del book.md
 for %%f in (chapters\*.md) do type "%%f" >> book.md
 
 pandoc -f markdown+smart book.md -o book.pdf -d defaults.yaml
