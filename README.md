@@ -153,22 +153,24 @@ On Mac or Linux, run:
 pandoc chapters/*.md -o book.pdf -d defaults.yaml
 ```
 
-On Windows, run:
-
+On Windows, sadly, you cannot simply use a wildcard on the md files, you need to first combine the chapters into a single file for the whole book:
 
 ```
-pandoc chapters\*.md -o book.pdf -d defaults.yaml
+for %f in (*.md) do type "%f" >> book.md
+pandoc book.md -o book.pdf -d defaults.yaml
 ```
 
 If it works, you should have a fully formatted book with a title page, table of contents, and page-breaks between each chapter.
 
+Either of these methods orders the chapters in _filename_ alphabetical order, which is why I named the files "001.md" and "002.md", to ensure they sort as expected.
+
 Screenshots of the PDF, to show how it will look:
 
 <div style="display: flex">
-<img src="images/pdf-title.png" alt="title page" width="240px">
-<img src="images/pdf-toc.png" alt="table of contents" width="240px">
-<img src="images/pdf-ch1.png" alt="chapter 1" width="240px">
-<img src="images/pdf-ch2.png" alt="chapter 2" width="240px">
+<img src="images/pdf-title.png" alt="title page" width="240px" style="border: 1px black solid">
+<img src="images/pdf-toc.png" alt="table of contents" width="240px" style="border: 1px black solid">
+<img src="images/pdf-ch1.png" alt="chapter 1" width="240px" style="border: 1px black solid">
+<img src="images/pdf-ch2.png" alt="chapter 2" width="240px" style="border: 1px black solid">
 </div>
 
 
@@ -180,9 +182,36 @@ Creating an EPUB or Word file is as easy as changing the name of the output file
 
 
 ```
-pandoc chapters/*.md -o book.epub -d defaults.yaml
-pandoc chapters/*.md -o book.docx -d defaults.yaml
+pandoc book.md -o book.epub -d defaults.yaml
+pandoc book.md -o book.docx -d defaults.yaml
 ```
+
+Example of how the EPUB might look in a reader:
+
+<img src="images/epub.png" alt="epub reader showing chapter 1" style="border: 1px black solid">
+
+## Convenience Scripts
+
+I've provided "make.sh" (for Linux/Mac) and "make.bat" (for Windows). Running one of these will create the following from your book sources:
+
+* PDF
+* EPUB
+* HTML
+* Word
+
+On Windows, simply run:
+
+```
+make.bat
+```
+
+On Linux/Mac, run:
+
+```
+./make.sh
+```
+
+And viola! You get your book, in multiple formats all at once.
 
 ## Versioning using Git
 
