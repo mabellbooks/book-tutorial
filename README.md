@@ -43,6 +43,32 @@ README
 
 <img src="images/obsidian.png" alt="screenshot of Obsidian open on chapter 1">
 
+There is *so* much more to Obsidian than we will be covering here. See the <a href="https://obsidian.md/help/">Obsdian Help</a> for a full description of its features.
+
+## Markdown
+
+The beauty of the approach here, though, is you are *not* tied to Obsidian. Markdown files (files that end with .md that are the actual documents) are a plain text format that can be easily read/edited with many different applications, including a plain text editor like Notepad.
+
+<img src="images/notepad.png" alt="screenshot of notepad being used to edit the book">
+
+If you're an old school Unix person, you can use vi:
+
+<img src="images/vi.png" alt="screenshot of book being edited with vi">
+
+Or if you miss the days of MS-DOS, you can use "edit":
+
+<img src="images/edit.png" alt="screen shot of the book being edited using the new windows version of classic DOS edit">
+
+As you can see, all that is going is that certain characters like the hash (#) and the asterisk, underscore, and hyphen are being treated as formatting.  It is very easy to learn, and soon even in Obsidian you will find you can turn on "source mode" and just type the Markdown directly, rather than rely on the WYSIWYG capabilities.
+
+The ability to use alternative and minimal editors is not just a stunt or a "fallback in case Obsidian stops working" (it won't!). It's a viable way to work. If you hit `alt+enter` while using "edit", for example, you will put it into a true fullscreen mode where it takes over the *entire* screen with just the text of the file you're editing - no more windows! - for a truly distraction free writing experience. People pay money for anti-distraction writing devices!
+
+There are many good tutorials about Markdown online. Here are some:
+
+- Obsidian's own tutorial here: <a href="https://obsidian.md/help/syntax">https://obsidian.md/help/syntax</a>
+- Markdown Guide: <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
+- literally just googling "markdown" at any time
+
 ## Pandoc
 
 This is what you use when you want to take a multiple-file book (1 file per chapter, for example) and assemble into an EPUB for uploading to a store, or a PDF for sending to be printed, or a Word doc for a beta reader to make notes. It is almost too good at converting between formats.
