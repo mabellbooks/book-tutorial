@@ -57,11 +57,6 @@ If those instructions are overwhelming, the following provides direct links to d
 1. Install Pandoc by downloading and running <a href="https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-windows-x86_64.msi">https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-windows-x86_64.msi</a>
 2. Install MikTek (the LaTex engine) by downloading and running <a href="https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-25.12-x64.exe">https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-25.12-x64.exe</a>.
 
-If you get all that installed, test it like this:
-
-1. download this README.md file if you haven't already
-2. open a Command Prompt with its current folder is the same location 
-
 
 ### Linux
 
