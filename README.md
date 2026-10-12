@@ -101,7 +101,9 @@ In your command prompt, run the following:
 pandoc README.md -o readme.pdf
 ```
 
-If everything installed correctly, Pandoc will produce a PDF of this very tutorial.
+If everything installed correctly, Pandoc will produce a PDF of this very tutorial. It might look something like the following:
+
+<img src="images/pdf-readme.png" alt="screenshot of what readme.pdf should look like">
 
 
 ## Specifying title, author, date, etc
@@ -159,6 +161,18 @@ pandoc chapters\*.md -o book.pdf -d defaults.yaml
 ```
 
 If it works, you should have a fully formatted book with a title page, table of contents, and page-breaks between each chapter.
+
+Screenshots of the PDF, to show how it will look:
+
+<img src="images/pdf-title.png" alt="title page" width="240px">
+<img src="images/pdf-toc.png" alt="table of contents" width="240px">
+<img src="images/pdf-ch1.png" alt="chapter 1" width="240px">
+<img src="images/pdf-ch2.png" alt="chapter 2" width="240px">
+
+
+You have *a lot* of control over the format of the PDF using the YAML file. See the Pandoc website for full details. Or just google it - like Markdown, Pandoc is widely used and understood and discussed in many places online.
+
+## Other Formats
 
 Creating an EPUB or Word file is as easy as changing the name of the output file:
 
