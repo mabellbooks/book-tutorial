@@ -103,7 +103,8 @@ pandoc README.md -o readme.pdf
 
 If everything installed correctly, Pandoc will produce a PDF of this very tutorial. It might look something like the following:
 
-<img src="images/pdf-readme.png" alt="screenshot of what readme.pdf should look like">
+<img src="images/pdf-readme.png" alt="screenshot of what readme.pdf should look like"  style="border: 1px black solid">
+
 
 
 ## Specifying title, author, date, etc
