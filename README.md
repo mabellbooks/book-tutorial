@@ -164,10 +164,12 @@ If it works, you should have a fully formatted book with a title page, table of 
 
 Screenshots of the PDF, to show how it will look:
 
+<div style="display: flex">
 <img src="images/pdf-title.png" alt="title page" width="240px">
 <img src="images/pdf-toc.png" alt="table of contents" width="240px">
 <img src="images/pdf-ch1.png" alt="chapter 1" width="240px">
 <img src="images/pdf-ch2.png" alt="chapter 2" width="240px">
+</div>
 
 
 You have *a lot* of control over the format of the PDF using the YAML file. See the Pandoc website for full details. Or just google it - like Markdown, Pandoc is widely used and understood and discussed in many places online.
