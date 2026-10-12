@@ -35,12 +35,13 @@ Get it at <a href="https://obsidian.md">https://obsidian.md</a>. Follow the inst
 Once installed, run it and use its "Open folder as vault" feature to open the folder that you downloaded this tutorial into. You should see a structure like:
 
 ```
-README.md
 chapters
-    001.md
-    002.md
+    001
+    002
+README
 ```
 
+<img src="images/obsidian.png" alt="screenshot of Obsidian open on chapter 1">
 
 ## Pandoc
 
