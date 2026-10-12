@@ -7,7 +7,7 @@ Tools used:
 - Git
 - GitHub
 
-
+This is a "do it yourself" process, of manually installing and setting up several different pieces of software on your computer. In the future I *may* write an automatically installer to set everything up automatically.
 ## Installing Git
 
 Git is used for keeping track of changes in your documents, and for syncing them up to GitHub for backing up the contents. It is a powerful tool intended to support full blown software development. It is a technical tool for technical folks, but we are not even going to be scratching the surface of its features here.
