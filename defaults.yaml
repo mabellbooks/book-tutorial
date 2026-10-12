@@ -1,0 +1,23 @@
+metadata:
+  title: Your Title
+  author: Author Name
+  lang: en-US
+  date: '2026'
+
+top-level-division: chapter
+
+table-of-contents: true
+
+number-sections: true
+
+variables:
+    documentclass: book
+    classoption:
+    - oneside
+    linestretch: 1.15
+    indent: false
+    parskip: 6pt
+    geometry:
+      - paperwidth=6in
+      - paperheight=9in
+      - margin=0.75in
