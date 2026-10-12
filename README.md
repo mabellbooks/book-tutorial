@@ -117,7 +117,7 @@ Full documentation of what all this means is available on the Pandoc website.
 
 ## Building a Book!
 
-Now, everything is ready to trying creating PDF formats of the "book" in this example.
+Now, everything is ready to create a full PDF of the "book" in this example.
 
 On Mac or Linux, run:
 
