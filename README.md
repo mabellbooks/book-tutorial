@@ -14,8 +14,7 @@ In lieu of a Patreon or other online tip jar, if you want to support this effort
 
 *Content Warning: these are adult books, recommended for readers 18+ readers only. Read the **full** list of warning tags on the website before purchasing the book! You've been warned.*
 
-<a href="https://mabellbooks.com/books.html#tutorial">https://mabellbooks.com/books.html</a>
-
+https://mabellbooks.com/books.html?ref=tutorial
 
 ## Installing Git
 
