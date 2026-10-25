@@ -8,7 +8,7 @@ Tools used:
 - Git
 - GitHub
 
-This is a "do it yourself" process, of manually installing and setting up several different pieces of software on your computer. In the future I *may* write an automatically installer to set everything up automatically.
+This is a "do it yourself" process, of manually installing and setting up several different pieces of software on your computer. In the future I *may* write an automatic installer to set everything up automatically.
 
 In lieu of a Patreon or other online tip jar, if you want to support this effort, see my author website and (if you like) buy a book. My books are very niche, and may not be for you, but they may be for your friends.
 
